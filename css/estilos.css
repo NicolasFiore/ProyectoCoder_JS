@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #00ADB5;
+}
+header{
+    background-color: black;
+    color: #EEEEEE;
+}
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* Formulario divisas */
+form{
+    border: 3px black solid;
+    background-color: black;
+    border-radius: 15px;
+    margin-left: 425px;
+    margin-right: 425px;
+}
+form label{
+    margin-top: 20px;
+    color: white;
+}
+input{
+    text-align: center;
+}
+.formularioDivisas{
+    text-align: center;
+}
+
+/* fecha */
+#fecha{
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: black;
+    border: black solid 2px;
+    text-align: center;
+}
