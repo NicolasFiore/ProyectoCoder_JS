@@ -19,25 +19,27 @@ form{
     border: 3px black solid;
     background-color: black;
     border-radius: 15px;
-    margin-left: 425px;
-    margin-right: 425px;
+    width: 300px;
 }
 form label{
     margin-top: 20px;
+    margin-bottom: 5px;
     color: white;
 }
 input{
     text-align: center;
 }
 .formularioDivisas{
-    text-align: center;
+    display: flex;
+    justify-content:center;
 }
 
 /* fecha */
 #fecha{
+    width: 100px;
+    display: flex;
+    justify-content:center;
     margin-top: 20px;
-    margin-left: 500px;
-    margin-right: 500px;
     padding-top: 8px;
     padding-bottom: 8px;
     color: white;
