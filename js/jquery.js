@@ -3,6 +3,8 @@ let inputPesos = $("#pesos");
 let inputDolares = $("#dolares"); 
 let inputEuros = $("#euros");
 
+
+
 // Main
 // Mediante keyup tomo los datos y los imprimo por dom
 // Mediante css modifico el color de los divisas convertidas

@@ -47,3 +47,16 @@ input{
     border: black solid 2px;
     text-align: center;
 }
+
+/* clima */
+.clima{
+    float: right;
+    width: 200px;
+    margin-right: 10px;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+    border: black solid 2px;
+    text-align: center;
+    border-radius: 15px;
+}

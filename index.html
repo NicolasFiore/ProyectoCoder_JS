@@ -14,7 +14,13 @@
             <h1>Conversor de divisas</h1>
         </div>
     </header>
-    <main>
+    <main>  
+        <!-- Widget clima -->
+        <div class="clima">
+            <h2 id="temperatura"></h2>
+            <h2 id="climaDescripcion"></h2>
+        </div>
+        <!-- Conversor -->
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-6 formularioDivisas">
@@ -29,9 +35,10 @@
                 </div>
             </div>
         </div>
+        <!-- Fecha del dia -->
         <div class="container">
             <div class="row justify-content-center">
-                    <p id="fecha">fecha</p>
+                <p id="fecha"></p>
             </div>
         </div>
     </main>
@@ -40,5 +47,6 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/clima.js"></script>
 </body>
 </html>
