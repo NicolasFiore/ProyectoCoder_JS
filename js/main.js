@@ -36,10 +36,10 @@ function Cambio(nombre, valor){
 }
 
 // Objetos de las monedas
-const cambio1 = new Cambio("dolar a peso", 98.91);
-const cambio2 = new Cambio("euro a peso", 114.28 ); 
-const cambio3 = new Cambio("dolar a euro", 0.87);
-const cambio4 = new Cambio("euro a dolar", 1.17);
+const cambio1 = new Cambio("dolar a peso", 100.35);
+const cambio2 = new Cambio("euro a peso", 113,57 ); 
+const cambio3 = new Cambio("dolar a euro", 0.88);
+const cambio4 = new Cambio("euro a dolar", 1.13);
 
 // objetos a JSON
 const cambio1JSON = JSON.stringify(cambio1);
