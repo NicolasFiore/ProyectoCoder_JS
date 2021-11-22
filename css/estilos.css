@@ -53,6 +53,7 @@ input{
     float: right;
     width: 200px;
     margin-right: 10px;
+    margin-left: 10px ;
     margin-top: 5px;
     color: white;
     background-color: black;
